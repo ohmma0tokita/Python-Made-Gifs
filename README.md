@@ -18,8 +18,10 @@
 
 ## Usage
 1. Customize the frames in the `frames/` directory to create your animation.
-2. Run the GIF creation script: `python gif.py` after changing the necessary
-3. Enjoy
+2. Add an audio file if you want, .wav format
+3. Run the GIF creation script: `python gif.py` after changing the necessary
+4. Continuously lick on [spacebar] to run the gif
+5. Enjoy
 
 ## Features
 - Create GIFs from individual frames, add music if you want.
