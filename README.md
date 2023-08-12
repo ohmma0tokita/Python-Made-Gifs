@@ -17,8 +17,5 @@
 # In the GIF creation script import the necessary modules
 from gif_utils import create_gif
 
-# List of frames
-put your frames in a single folder in an orderly manner, the script will do the rest
-
 # Create a GIF
 create_gif("frames-folder-name", music_file="music-file",speed="transition-speed")
