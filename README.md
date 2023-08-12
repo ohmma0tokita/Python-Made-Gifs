@@ -30,6 +30,7 @@
 - Lightweight and easy-to-understand codebase.
 
 ## Examples
+you can use the anime or neon frames folders for the sake of example
 **Creating a GIF:**
 ```python
 # Import the necessary modules
