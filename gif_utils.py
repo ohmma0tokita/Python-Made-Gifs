@@ -1,4 +1,4 @@
-def main(gif_folder_path, width=400, height=400, speed=0.1):
+def create_gif(gif_folder_path, width=400, height=400, speed=0.1):
     import pygame, os, sys
     pygame.init()
     # sets caption
