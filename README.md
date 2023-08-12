@@ -30,13 +30,13 @@
 - Lightweight and easy-to-understand codebase.
 
 ## Examples
-you can use the anime or neon frames folders for the sake of example
 **Creating a GIF:**
 ```python
 # Import the necessary modules
 from gif_utils import create_gif
 
 # Create a GIF
+# you can use the anime or neon frames folders provided in the repo
 create_gif("frames-folder-name", music_file="music-file",speed="transition-speed")
 ```
 
