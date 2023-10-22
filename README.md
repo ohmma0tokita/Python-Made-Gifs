@@ -1,4 +1,4 @@
-# Pythonic GIF Artistry: Crafting Animated Masterpieces from Scratch
+# Python GIFs: Crafting Simple Animations from Scratch
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
