@@ -1,4 +1,4 @@
-def create_gif(gif_folder_path, width=400, height=400, speed=0.1):
+def create_gif(gif_folder_path, music_file="music_file.wav", width=400, height=400, speed=0.1):
     import pygame, os, sys
     pygame.init()
     # sets caption
@@ -13,7 +13,7 @@ def create_gif(gif_folder_path, width=400, height=400, speed=0.1):
         img = pygame.image.load(gif_folder_path+'/'+file); img = pygame.transform.scale(img, (width,height))
         images.append(img)
     # sound track
-    pygame.mixer.music.load("music_file.wav")
+    pygame.mixer.music.load(music_file)
     # play then pause music
     pygame.mixer.music.play(-1)
     pygame.mixer.music.pause()
